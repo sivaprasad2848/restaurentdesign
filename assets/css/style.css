@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+body,div,h1{
+    margin:0;
+    padding:0;
+    font-family:'Rajdhani';
+}
+.topbar{
+    width:100%;
+    height:80px;
+    background-color: #222;
+}
+.topbar .heading
+{
+    color:#fff;
+    padding:12px;
+    margin:12px;
+    float:left;
+}
+.topbar .menu{
+    float:right;
+    margin-right:30px;
+    padding-top:15px;
+    list-style-type:none;
+}
+.topbar .menu li{
+    float:left;
+    margin-left:10px;
+    transition: all .3s ease-in-out;
+}
+.topbar .menu li a{
+    text-decoration: none;
+    color:#fff;
+}
+.topbar .menu li a:hover{
+color: red;
+}
+.slidersection{
+    width:100%;
+    height:320px;
+    background-color: #fff;
+    background-image: url('../images/banner-bg.png');
+    background-size:100% 100%;
+    
+    background-repeat: no-repeat;
+
+}
+.aboutus{
+    width:100%;
+    height:400px;
+    background-color: #fff;
+    
+}
+.aboutus .left{
+    width:50%;
+    height:400px;
+    /*background-color: bisque;*/
+    float:left;
+
+}
+.aboutus .left .heading{
+    color:#f76d37;
+    text-transform:uppercase;
+    font-size: 30px;
+    padding-left: 28px;
+    /*text-align: center;*/
+    padding-top:40px;
+}
+.aboutus .left p{
+    text-align: justify;
+    line-height: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+.aboutus .left button{
+    background-color: #333;
+    padding:10px;
+    margin-left:35%;
+    color:#fff;
+    border: 0;
+
+ box-shadow: none;
+ border-radius: 0px;
+
+}
+.aboutus .left button:hover{
+    background-color:#f76d37;
+    color:#fff;
+}
+.aboutus .right{
+    width:50%;
+    height:400px;
+    background-color: aquamarine;
+    float:left;
+}
+.gallery{
+    width:100%;
+    height:600px;
+    background-color: #fff;
+}
+.services{
+    width:100%;
+    height:600px;
+    background-color: #333;
+}
+.testimonial{
+    width:100%;
+    height:600px;
+    background-color: #fff;
+}
+.contactus{
+    width:100%;
+    height:7 00px;
+    background-color: #333;
+}
+.footermenu{
+    width:100%;
+    height:500px;
+    background-color: #fff;
+}
+.footer{
+    width:100%;
+    height:80px;
+    background-color: #333;
+}
