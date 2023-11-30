@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+body{
+      font-family:'Rajdhani';
+}
+.topbar{
+    background-color:#252525;
+    color:#fff;
+    height:100px;
+}
+.topbar h1{
+    font-weight: bold;
+}
+.menu
+{
+    list-style-type:none;
+    float:right;
+}
+.menu li
+{
+    float:left;
+    margin-left:15px;
+
+}
+.menu li a{
+    text-decoration: none;
+    color:#fff;
+    font-size:18px;
+}
+.menu li a:hover{
+    color:#f76d37;
+}
+/*------------------*/
+.sliderContainer{
+    background-image: url('../images/banner-bg.png');
+    background-size: cover;
+    height:80vh;
+}
+.carousel{
+    margin-top: 50px;
+  }
+  .carousel-inner{
+    height: 100px;
+  }
+  .carousel-caption{
+    color: #fff;
+    top: 50%;
+  }
+  .carousel-item{
+    height:500px  !important;
+  }
+  .aboutus{
+    padding-left:60px;
+  }
+  .aboutus h3{
+    color:#f76d37;
+    font-weight: bold;
+    margin-top:100px;
+  }
